@@ -17,3 +17,4 @@ while counter < source_array.length do
   new_array<< source_array[counter]
   counter+=1 
   return new_array
+end 
