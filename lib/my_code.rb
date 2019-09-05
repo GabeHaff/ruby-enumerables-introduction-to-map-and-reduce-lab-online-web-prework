@@ -59,4 +59,7 @@ end
 return true 
 end 
 
-def reduce_to_
+def reduce_to_any_true(source_array)
+  counter = 0 
+  while counter < array.size do 
+    
