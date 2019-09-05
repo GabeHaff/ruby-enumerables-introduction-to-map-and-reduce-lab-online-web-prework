@@ -9,8 +9,11 @@ counter = 0
   end
 return new_array
 end
+
 def map_to_no_change(source_array)
 counter = 0 
 new_array= []
 while counter< source_array.length do 
   new_array<< source_array[counter]
+  counter+=1 
+  return new_array
