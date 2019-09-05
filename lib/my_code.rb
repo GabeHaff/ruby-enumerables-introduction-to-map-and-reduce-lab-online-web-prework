@@ -15,5 +15,6 @@ counter = 0
 new_array= []
 while counter < source_array.length do 
   new_array << source_array[counter]
-  return new_array
+  counter +=1 
+  p new_array
 end 
