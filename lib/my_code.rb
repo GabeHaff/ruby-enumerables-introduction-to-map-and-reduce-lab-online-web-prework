@@ -50,4 +50,9 @@ end
 total 
 end 
 
-def 
+def def reduce_to_(source_array, starting_point=0)
+  total= starting_point 
+  counter = 0
+  while counter < array.size do 
+  total += array[counter]
+  counter +=1
